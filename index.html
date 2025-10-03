@@ -7,17 +7,22 @@
     <body>
         <div class="flex-container">
             <div class="nav-bar-index">
+                <!-- Sidebar to navigate to the different sections of the page -->
                 <nav>
                     <h2>NAVIGATION</h2>
                     <ul>
+                        <!-- By clicking this list item, the user will go to the "MINESWEEPER" section of the pager -->
                         <li ><a href="#">Minesweeper</a></li>                        
+                        <!-- By clicking this list item, the user will go to the "RULES" section of the pager -->
                         <li><a href="#rules-section">Rules</a></li>                        
+                        <!-- By clicking this list item, the user will go to the "HISTORY" section of the pager -->
                         <li><a href="#bottom-section">History</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="main-container">
-                <header>                
+                <header>      
+                    <!-- Minesweeper section -->
                     <h1>MINESWEEPER</h1>              
                 </header>
                 <main>
@@ -25,23 +30,28 @@
                         <div class="others-container">
 
                             <div class="flex-container cards">
-
+                                <!-- Card containing the time it took the player to win or lose the game,-->
                                 <div class="card">
 
                                     <div>
+                                        <!-- Place holder text for now -->
                                         <p class="card-text">00:00</p>
                                     </div>
                                 </div>
+                                <!-- In this empty card is where I will place the minesweeper board -->
                                 <div class="card">
 
+                                    <!-- I will use these emojis in the future when implementing Minesweeper logic -->
                                     <!--<div id="minesweeper-section">
                                         <p class="card-emoji">&#128512;</p>
                                         <p class="card-emoji">&#128565;</p>
                                     </div>-->
                                 </div>
+                                <!-- Card containing the amount of flags remaining -->
                                 <div class="card">
 
                                     <div>
+                                        <!-- Place holder text for now -->
                                         <p class="card-text">12</p>
                                     </div>
                                 </div>
@@ -49,6 +59,7 @@
                         </div>
                     </div>
                     <div>
+                        <!-- Rules section -->
                         <header id="rules-section">
                             <h1>RULES</h1>
                         </header>
@@ -56,6 +67,7 @@
 
                             <div class="flex-container cards">
 
+                                <!-- Card containing the main goal of Minesweeper -->
                                 <div class="card rules-card">
 
                                     <div>
@@ -67,6 +79,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <!-- Card containing rules number 1 and 2 -->
                                 <div class="card rules-card">
 
                                     <div>
@@ -86,6 +99,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <!-- Card containing rules number 3, 4 and 5 -->
                                 <div class="card rules-card">
 
                                     <div>
@@ -112,6 +126,7 @@
                         </div>
                     </div>
                     <div>
+                        <!-- HISTORY section -->
                         <header id="bottom-section">
                             <h1>HISTORY</h1>
                         </header>
@@ -119,6 +134,7 @@
 
                             <div class="flex-container cards">
 
+                                <!-- Card containing the number of hours spent playing minesweeper globally -->
                                 <div class="card" id="history-card">
 
                                     <div>
@@ -126,11 +142,10 @@
                                         <p class="card-paragraph history-stats-text">HOURS PLAYED</p>
                                     </div>
                                 </div>
+                                <!-- Card containing the history of minesweeper -->
                                 <div class="card" id="history-card">
 
                                     <div>
-                                        <!--<p class="card-emoji">&#128512;</p>
-                        <p class="card-emoji">&#128565;</p>-->
                                         <p class="card-paragraph">
                                             Minesweeper originated from earlier puzzle games, most notably Ian Andrew's Mined-Out (1983), before being developed by
                                             Robert Donner and Curt Johnson for the Microsoft Entertainment Pack in 1990. The game was included in Windows 3.1 and was
@@ -139,6 +154,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <!-- Card containing the amount of minesweeper games played globally -->
                                 <div class="card" id="history-card">
 
                                     <div class="history-stats-card">
@@ -151,12 +167,18 @@
                         </div>
                     </div>
                 </main>
+                <!-- Footer section -->
                 <footer>
                     <div>
+                        <!-- Link to Felipe Garcia's LinkedIn. -->
                         <a href="https://www.linkedin.com/in/juan-felipe-garcia-martinez-salesforce/" class="footer-items" target="_blank">MY LINKEDIN</a>
+                        <!-- Link to W3Schools article on how to make HTML footer. -->
                         <a href="https://www.w3schools.com/tags/tag_footer.asp" class="footer-items" target="_blank">HOW TO MAKE A FOOTER IN HTML</a>
+                        <!-- Link to htmlacademy.org. -->
                         <a href="https://htmlacademy.org/" class="footer-items" target="_blank">HTML ACADEMY</a>
+                        <!-- Link to an HTML cheat sheet from the Stanford university. -->
                         <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" class="footer-items" target="_blank">HTML CHEATSHEET</a>
+                        <!-- Link to minesweeper.online/statistics. This is where a took the minesweeper stats from. -->
                         <a href="https://minesweeper.online/statistics" class="footer-items" target="_blank">MINESWEEPER STATS</a>
                     </div>
                 </footer>
