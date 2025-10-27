@@ -41,7 +41,7 @@ class GameBoard {
             if (this.board[index] == '*') {
                 if (isGameOver) {
                     cell.dataset.isMine = true;
-                    cell.textContent = '*';
+                    cell.innerHTML = "&#x1F4A3;";
                     cell.style.backgroundColor = "lightgrey";
                 }
             }
@@ -51,7 +51,7 @@ class GameBoard {
             }
             else if (this.board[index] == 'B') {
                 cell.dataset.isMine = true;
-                cell.textContent = '*';
+                cell.innerHTML = "&#x1F4A3;";
                 cell.style.backgroundColor = "red";
             }
             else if (this.board[index] == '0') {
